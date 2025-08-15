@@ -12,7 +12,7 @@ public class problem34B {
 			sets[i] = sc.nextInt();
 
 		// output section
-    Arrays.sort(sets);
+    	Arrays.sort(sets);
 		int earn = 0;
 		for (int i = 0; i < n; i++) {
 			if (sets[i] < 0) {
